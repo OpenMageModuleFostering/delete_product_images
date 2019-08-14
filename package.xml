@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>delete_product_images</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Delete Product Images Magento Community Module</summary>
+    <description>Magento doesn't provide for deleting images, when a product is being deleted by the admin. The Delete Product Images extension helps delete the product images - when a product is being deleted. This helps save enormous amount of memory space in the long run and keeping the server clean.</description>
+    <notes>Delete Product Images Magento Community Module</notes>
+    <authors><author><name>StrApp</name><user>strviv</user><email>strappvivek@gmail.com</email></author></authors>
+    <date>2014-03-11</date>
+    <time>05:12:25</time>
+    <contents><target name="magelocal"><dir name="Strapp"><dir name="Deleteproductimages"><dir name="Helper"><file name="Data.php" hash="db843472b1661720c137c592edf02486"/><file name="Data.php~" hash="db843472b1661720c137c592edf02486"/></dir><dir name="Model"><file name="Observer.php" hash="9b77bba89236c8647f01a897ee7f5f3d"/><file name="Observer.php~" hash="9b77bba89236c8647f01a897ee7f5f3d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="23c015c5cf66b9a653c5d0ce723d2cfb"/><file name="adminhtml.xml~" hash="23c015c5cf66b9a653c5d0ce723d2cfb"/><file name="config.xml" hash="7821a4908d4d17e0481535e54c0ca270"/><file name="config.xml~" hash="077e4126b75b00d0e1934beca2824454"/><file name="system.xml" hash="bbba595505fdeb203e0750e0b0ce02f8"/><file name="system.xml~" hash="bbba595505fdeb203e0750e0b0ce02f8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Strapp_Deleteproductimages.xml" hash="b2bafdd24ce3fb6b569506aaec94461e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.6</max></php></required></dependencies>
+</package>
