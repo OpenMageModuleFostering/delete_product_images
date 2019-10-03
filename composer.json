@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/delete_product_images",
+    "name": "OpenMageModuleFostering\/delete_product_images",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Delete Product Images Magento Community Module",
     "authors": [
-    {
-        "name": "StrApp",
-        "email": "strappvivek@gmail.com"
-    }
-],
+        {
+            "name": "StrApp",
+            "email": "strappvivek@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
